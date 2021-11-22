@@ -12,7 +12,8 @@
             margin: auto;
             background: linear-gradient(50deg, #186, rgb(138, 139, 127) ,rgb(46, 71, 56));
         }
-        
+        option.red {background-color: #cc0000; font-weight: bold; font-size: 12px;}
+    option.pink {background-color: #ffcccc;}
         </style>
     </head>
     <body>
@@ -41,9 +42,17 @@
   <label >Cooking</label><br>
   <input type="checkbox"  value="Cooking">
   <label >Drawing</label><br>
-  <label>Favorite Color</label>
-  <input type="color" name="favcolor" value="favcolor" >
-<textarea name= "message" rows="8" cols="20"></textarea>
+  <select name=colors>
+    <option class="red" >Red </option>
+    <option class="pink">Pink
+    
+        <option class="blue" >Blue </option>
+        <option class="green" >Green </option>
+        <option class="Purple" >Purple </option>
+        <option class="orange" >orange </option>
+    </option>
+    </select>
+<br><textarea name= "message" rows="8" cols="20"></textarea>
   
   <BR><BR>
             <input type="submit" value="Submit">
